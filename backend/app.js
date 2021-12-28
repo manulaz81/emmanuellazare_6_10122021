@@ -3,8 +3,6 @@ require('dotenv').config({ path : './config/.env'});
 
 const app = express();
 
-
-
 //nous donne accès au corps de la requete
 app.use(express.json());
 
